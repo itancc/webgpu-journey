@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules
+dist
+cache
+build
+# Code Eidtor
+.vscode
+
+# VitePress
+.vitepress/cache
+.vitepress/dist
+

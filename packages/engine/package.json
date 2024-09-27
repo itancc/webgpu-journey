@@ -1,0 +1,6 @@
+{
+  "name": "@itancc/wge",
+  "devDependencies": {
+    "@webgpu/types": "^0.1.46"
+  }
+}
