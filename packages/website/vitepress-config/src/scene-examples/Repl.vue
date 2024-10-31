@@ -14,7 +14,7 @@ const [, EComponent] = componentHook();
 .repl-container {
   width: 100%;
   height: calc(
-    100vh - var(--vp-nav-height) - var(--vt-banner-height, 0px) - 8px
+    100vh - var(--vp-nav-height)  - 48px - 60px
   ) !important;
 }
 </style>

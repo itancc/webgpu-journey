@@ -7,9 +7,11 @@
     "ECS"
   ],
   "scripts": {
-    "dev": "pnpm --filter wge-website docs:dev"
+    "dev": "pnpm --filter wge-website docs:dev",
+    "clean": "pnpm -r exec rimraf node_modules && rimraf node_modules"
   },
   "devDependencies": {
+    "rimraf": "^6.0.1",
     "typescript": "^5.6.2"
   }
 }
